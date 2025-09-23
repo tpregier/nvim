@@ -20,6 +20,12 @@ straight into your own repo or config files.
   and pick)
   - Zuthara PDF for Linux
   - Sumatra PDF for Windows
+- Toggleterm (floating and horizontal terminals with <leader>a and <leader>h
+  respectively
+- Undotree (better undo activity used with <leader>i - split into 2 files for
+  better between session use)
+- Highlight-undo (highlighting undone things - might not work great with undotree)
+- Glance (better view of functions in other locations)
 
 ### Style Changes
 
