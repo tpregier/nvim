@@ -28,7 +28,7 @@ return {
     opts = {
       colorscheme = "dayfox", -- You can also use "nordfox", "dayfox", etc.
     },
-  },-- Add Nightfox colorscheme
+  }, -- Add Nightfox colorscheme
   { "EdenEast/nightfox.nvim" },
 
   -- Configure LazyVim to use Nightfox
@@ -67,5 +67,13 @@ return {
     opts = {
       colorscheme = "terafox", -- You can also use "nordfox", "dayfox", etc.
     },
+  },
+  {
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000, -- make sure it loads first
+    config = function()
+      vim.o.background = "dark" -- or "light"
+      vim.cmd.colorscheme("gruvbox")
+    end,
   },
 }
