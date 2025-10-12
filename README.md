@@ -26,6 +26,8 @@ straight into your own repo or config files.
   better between session use)
 - Highlight-undo (highlighting undone things - might not work great with undotree)
 - Glance (better view of functions in other locations)
+- LSP Lines (Shows errors in normal mode)
+- TODO
 
 ### Style Changes
 
