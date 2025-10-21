@@ -6,3 +6,27 @@ debug
 foo.*
 *.log
 data
+# ─────────────────────────────
+# Neovim / LazyVim
+# ─────────────────────────────
+lazy-lock.json
+nvim/.local/
+nvim/.cache/
+nvim/undo/
+nvim/backup/
+nvim/swap/
+
+# ─────────────────────────────
+# OS-specific clutter
+# ─────────────────────────────
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Linux temporary files
+*.swp
+*.swo
